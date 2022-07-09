@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AppActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/women1"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="26dp"
+            android:text="@string/app_name"
+            android:textColor="@color/logoColor"
+            android:textSize="26sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In to your Account"
+            android:textColor="@color/logoColor"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginBottom="40dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/username"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/logoColor"
+            android:textColor="@color/logoColor"
+            android:hint="Enter Username"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/password"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:textColorHint="@color/logoColor"
+            android:textColor="@color/logoColor"
+            android:hint="Enter Password"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"
+            android:text="Sign in"
+            android:id="@+id/signin"
+            android:letterSpacing="0.14"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/logoColor"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
